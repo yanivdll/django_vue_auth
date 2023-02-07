@@ -40,21 +40,21 @@ python manage.py migrate
 ```
 * Create a superuser
     
-    ```shell
-    python manage.py createsuperuser
-    ```
+```shell
+python manage.py createsuperuser
+```
 
 * Run the Django server
     
-    ```shell
-    python manage.py runserver
-    ```
+```shell
+python manage.py runserver
+```
 
 * Run the Vue.js server
         
-        ```shell
-        npm run serve
-        ```
+```shell
+npm run serve
+```
 
 * Test the API endpoints using a browser or Postman with a GET call to http://localhost:8000/api/v1/
 
