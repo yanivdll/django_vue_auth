@@ -6,7 +6,7 @@ This is a scafold project running a django backend with a vue.js frontend, using
 * Clone the repository
 
 ```shell
-git clone 
+git clone https://github.com/yanivdll/django_vue_auth.git django-vue-auth
 ```
 
 * Create a virtual environment
@@ -39,7 +39,22 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 * Create a superuser
+    
+    ```shell
+    python manage.py createsuperuser
+    ```
+
 * Run the Django server
+    
+    ```shell
+    python manage.py runserver
+    ```
+
 * Run the Vue.js server
+        
+        ```shell
+        npm run serve
+        ```
+
 * Test the API endpoints using a browser or Postman with a GET call to http://localhost:8000/api/v1/
 
