@@ -22,7 +22,7 @@ source .venv/bin/activate
 ```shell
 pip install pip-tools
 pip-compile requirements.in
-pip install -r requirements.txt
+pip sync
 ```
 
 * Install the frontend dependencies:
@@ -53,6 +53,7 @@ python manage.py runserver
 * Run the Vue.js server
         
 ```shell
+cd frontend
 npm run serve
 ```
 
